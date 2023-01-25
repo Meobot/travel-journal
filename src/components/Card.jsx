@@ -12,7 +12,6 @@ export default function Card(props) {
         <div className="card-details-container">
             <div className="location-details-container">
                 <img src="./public/images/location-pin.png" alt="image of a location pin" />
-                <img src="./public/location-pin.png" alt="image of a location pin" />
                 <p className="location-p el-shadow">{`${props.item.location}`}</p>
                 <a href={`${props.item.googleMapsUrl}`} target="_blank" className="map-url el-shadow">View on Google Maps</a>
             </div>
